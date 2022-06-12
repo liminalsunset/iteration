@@ -65,3 +65,9 @@ pip freeze > requirements.txt (I would google this further, but basically it see
 (here is a great site about this/python decouple: https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html)
 
 
+14. git init
+15. git add .
+16. git commit -m "first commit"
+17. git branch -M main
+18. git remote add origin .. (past your git remote origin address)
+
