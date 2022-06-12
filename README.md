@@ -38,26 +38,26 @@ cd into your project
 
     (I will probably add a link to a .gitignore)
 
+    read the documentation on .gitignore
+    https://git-scm.com/docs/gitignore
+
 IMPORTANT!!:
 
-NEW:
+Set up an ENV:
 
-read the documentation on .gitignore
-https://git-scm.com/docs/gitignore
+13. make sure your .gitignore ignores .env
 
-13. SET UP A .ENV:
+14. make a .env file (at he same directory level as manage.py and your .gitignore)
 
-.env (at he same directory level as manage.py and your .gitignore)
+15. Cut your secret key from settings.py (in project directory) and paste it in your .env 
 
-14. Cut your secret key from settings.py (in project directory) and paste it in your .env 
-
-15. Where your security key was in settings.py, replace that with (this is case sensitive, you're probably already aware but just in case):
+16. Where your security key was in settings.py, replace that with (this is case sensitive, you're probably already aware but just in case):
 
 from decouple import config
 
 SECRET_KEY = config(“SECRET_KEY”)
 
-16. Then in your terminal run:
+17. Then in your terminal run:
 
 pip install python-decouple
 pip freeze > requirements.txt (I would google this further, but basically it seems to just keep track of your dependencies)
@@ -65,9 +65,9 @@ pip freeze > requirements.txt (I would google this further, but basically it see
 (here is a great site about this/python decouple: https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html)
 
 
-14. git init
-15. git add .
-16. git commit -m "first commit"
-17. git branch -M main
-18. git remote add origin .. (past your git remote origin address)
+18. git init
+19. git add .
+20. git commit -m "first commit"
+21. git branch -M main
+22. git remote add origin .. (past your git remote origin address)
 
