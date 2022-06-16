@@ -71,3 +71,13 @@ pip freeze > requirements.txt (I would google this further, but basically it see
 21. git branch -M main
 22. git remote add origin .. (past your git remote origin address)
 
+start app
+
+In root directory:
+
+23. python3 manage.py startapp myapp
+
+In settings.py:
+
+24. update INSTALLED_APPS --
+    add 'myapp.apps.MyappConfig'
