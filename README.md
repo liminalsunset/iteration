@@ -81,3 +81,9 @@ In settings.py:
 
 24. update INSTALLED_APPS --
     add 'myapp.apps.MyappConfig'
+
+    * the django projects folder holds manage.py and the other module that includes settings.py
+    * adding it to the settings.py under INSTALLED_APPS tells your project of its existence
+
+--
+    python3 manage.py startapp myapp
