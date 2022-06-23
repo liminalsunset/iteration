@@ -87,3 +87,8 @@ In settings.py:
 
 --
     python3 manage.py startapp myapp
+
+__
+
+aside: Django MTV architecture: https://towardsdatascience.com/working-structure-of-django-mtv-architecture-a741c8c64082
+
