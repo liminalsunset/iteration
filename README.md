@@ -87,3 +87,7 @@ In settings.py:
 
 --
     python3 manage.py startapp myapp
+
+    possibly useful:
+    git config --global credential.helper osxkeychain
+    
