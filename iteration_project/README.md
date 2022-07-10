@@ -1,5 +1,7 @@
 From the terminal:
 
+** stretch: have a back in time for installing python and running the right version
+
 1. Create a blank repo on Github
 2. Make a directory for project
 3. CD into directory
@@ -88,9 +90,6 @@ In settings.py:
 --
     python3 manage.py startapp myapp
 
-    possibly useful:
-    git config --global credential.helper osxkeychain
-    
 __
 
 aside: Django MTV architecture: https://towardsdatascience.com/working-structure-of-django-mtv-architecture-a741c8c64082
