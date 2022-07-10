@@ -90,7 +90,7 @@ In settings.py:
 
     possibly useful:
     git config --global credential.helper osxkeychain
-    
+    git remote set-url origin [updated link url https://........git]
 __
 
 aside: Django MTV architecture: https://towardsdatascience.com/working-structure-of-django-mtv-architecture-a741c8c64082
